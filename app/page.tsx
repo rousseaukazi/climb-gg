@@ -21,8 +21,6 @@ const games = gamesData as Game[];
 const realGames = games.filter((g) => g.result !== "Remake");
 const wins = realGames.filter((g) => g.result === "Win");
 const losses = realGames.filter((g) => g.result === "Loss");
-const rankedGames = realGames.filter((g) => g.gameMode === "Ranked Solo");
-const rankedWins = rankedGames.filter((g) => g.result === "Win");
 
 // Champion stats
 const champStats: Record<string, { games: number; wins: number; kills: number; deaths: number; assists: number; cs: number; totalMin: number }> = {};
@@ -98,154 +96,181 @@ function kdaColor(k: number, d: number, a: number) {
   return "#999";
 }
 
+const tableWrap: React.CSSProperties = {
+  overflowX: "auto",
+  WebkitOverflowScrolling: "touch",
+  marginBottom: 32,
+};
+
+const th: React.CSSProperties = {
+  padding: "10px 12px",
+  color: "#9b9a97",
+  fontWeight: 500,
+  whiteSpace: "nowrap",
+  borderBottom: "2px solid #e3e3e1",
+  textAlign: "left",
+};
+
+const td: React.CSSProperties = {
+  padding: "10px 12px",
+  whiteSpace: "nowrap",
+  borderBottom: "1px solid #f0f0ef",
+};
+
 export default function Home() {
   return (
-    <div style={{ maxWidth: 800, margin: "0 auto", padding: "40px 20px", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", color: "#37352f", background: "#fff", minHeight: "100vh" }}>
+    <div style={{ maxWidth: 800, margin: "0 auto", padding: "24px 16px", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", color: "#37352f", background: "#fff", minHeight: "100vh" }}>
       
       {/* Header */}
-      <div style={{ borderBottom: "1px solid #e3e3e1", paddingBottom: 20, marginBottom: 32 }}>
-        <h1 style={{ fontSize: 40, fontWeight: 700, margin: 0, color: "#37352f" }}>climb.gg</h1>
+      <div style={{ borderBottom: "1px solid #e3e3e1", paddingBottom: 16, marginBottom: 24 }}>
+        <h1 style={{ fontSize: 32, fontWeight: 700, margin: 0, color: "#37352f" }}>climb.gg</h1>
         <p style={{ color: "#9b9a97", fontSize: 14, marginTop: 4 }}>izakr #NA2 · Silver 2 · 18 LP</p>
       </div>
 
       {/* Overview */}
-      <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 16, color: "#37352f" }}>📊 Overview</h2>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 16, marginBottom: 32 }}>
+      <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>📊 Overview</h2>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 12, marginBottom: 24 }}>
         {[
           { label: "Record", value: `${wins.length}W ${losses.length}L`, sub: `${(wins.length / realGames.length * 100).toFixed(0)}% WR` },
           { label: "KDA", value: overallKDA, sub: `${avgKills.toFixed(1)} / ${avgDeaths.toFixed(1)} / ${avgAssists.toFixed(1)}` },
           { label: "Avg CS/min", value: (realGames.reduce((a, g) => a + g.csPerMin, 0) / realGames.length).toFixed(1), sub: `${(realGames.reduce((a, g) => a + g.cs, 0) / realGames.length).toFixed(0)} avg CS` },
           { label: "Streak", value: `${currentStreak}${streakType === "Win" ? "W" : "L"}`, sub: streakType === "Win" ? "🔥 Hot" : "❄️ Cold" },
         ].map((stat, i) => (
-          <div key={i} style={{ background: "#f7f6f3", borderRadius: 4, padding: "16px 12px" }}>
+          <div key={i} style={{ background: "#f7f6f3", borderRadius: 4, padding: "14px 12px" }}>
             <div style={{ fontSize: 11, color: "#9b9a97", textTransform: "uppercase", letterSpacing: "0.05em" }}>{stat.label}</div>
-            <div style={{ fontSize: 24, fontWeight: 700, marginTop: 4 }}>{stat.value}</div>
+            <div style={{ fontSize: 22, fontWeight: 700, marginTop: 4 }}>{stat.value}</div>
             <div style={{ fontSize: 12, color: "#9b9a97", marginTop: 2 }}>{stat.sub}</div>
           </div>
         ))}
       </div>
 
       {/* Insights */}
-      <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 16, color: "#37352f" }}>💡 Insights</h2>
-      <div style={{ background: "#f7f6f3", borderRadius: 4, padding: 20, marginBottom: 32, fontSize: 14, lineHeight: 1.8 }}>
+      <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>💡 Insights</h2>
+      <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "16px", marginBottom: 24, fontSize: 14, lineHeight: 1.8 }}>
         <div style={{ marginBottom: 12 }}>
-          <strong>🎯 Deaths are the biggest predictor of your wins.</strong><br/>
-          Games with ≤3 deaths: <strong>{lowDeathWR}% WR</strong> ({lowDeathGames.length} games) · Games with 8+ deaths: <strong>{highDeathWR}% WR</strong> ({highDeathGames.length} games)
+          <strong>🎯 Deaths predict wins.</strong><br/>
+          ≤3 deaths: <strong>{lowDeathWR}% WR</strong> ({lowDeathGames.length}g) · 8+ deaths: <strong>{highDeathWR}% WR</strong> ({highDeathGames.length}g)
         </div>
         <div style={{ marginBottom: 12 }}>
           <strong>🌾 CS matters.</strong><br/>
-          Games with ≥6.5 CS/min: <strong>{highCSWR}% WR</strong> ({highCSGames.length} games) · Games with &lt;5.5 CS/min: <strong>{lowCSWR}% WR</strong> ({lowCSGames.length} games)
+          ≥6.5 CS/min: <strong>{highCSWR}% WR</strong> ({highCSGames.length}g) · &lt;5.5 CS/min: <strong>{lowCSWR}% WR</strong> ({lowCSGames.length}g)
         </div>
         <div style={{ marginBottom: 12 }}>
-          <strong>⏱️ You win fast, you lose slow.</strong><br/>
-          Avg win duration: <strong>{avgWinDuration.toFixed(0)}min</strong> · Avg loss duration: <strong>{avgLossDuration.toFixed(0)}min</strong>
-          {avgLossDuration > avgWinDuration + 3 && <span> — your losses drag out. If the game goes long and you{"'"}re behind, it{"'"}s probably over.</span>}
+          <strong>⏱️ Win fast, lose slow.</strong><br/>
+          Avg win: <strong>{avgWinDuration.toFixed(0)}min</strong> · Avg loss: <strong>{avgLossDuration.toFixed(0)}min</strong>
+          {avgLossDuration > avgWinDuration + 3 && <span> — losses drag. If behind late, it{"'"}s probably over.</span>}
         </div>
         <div>
-          <strong>🧪 Off-role experiment: Mel mid.</strong><br/>
-          You played {champStats["Mel"]?.games || 0} games on Mel (not ADC). Record: {champStats["Mel"]?.wins || 0}W {(champStats["Mel"]?.games || 0) - (champStats["Mel"]?.wins || 0)}L. 
-          {champStats["Mel"] && champStats["Mel"].wins / champStats["Mel"].games < 0.5 ? " Might want to stick to ADC." : " Interesting experiment."}
+          <strong>🧪 Mel mid experiment.</strong><br/>
+          {champStats["Mel"]?.games || 0} games, {champStats["Mel"]?.wins || 0}W {(champStats["Mel"]?.games || 0) - (champStats["Mel"]?.wins || 0)}L.
+          {champStats["Mel"] && champStats["Mel"].wins / champStats["Mel"].games < 0.5 ? " Stick to ADC." : ""}
         </div>
       </div>
 
       {/* Champion Stats */}
-      <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 16, color: "#37352f" }}>🏆 Champions</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: 32, fontSize: 14 }}>
-        <thead>
-          <tr style={{ borderBottom: "2px solid #e3e3e1", textAlign: "left" }}>
-            <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Champion</th>
-            <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Games</th>
-            <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Win Rate</th>
-            <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>KDA</th>
-            <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>CS/min</th>
-          </tr>
-        </thead>
-        <tbody>
-          {Object.entries(champStats)
-            .sort((a, b) => b[1].games - a[1].games)
-            .map(([champ, s]) => (
-              <tr key={champ} style={{ borderBottom: "1px solid #f0f0ef" }}>
-                <td style={{ padding: "10px 0", fontWeight: 500 }}>{champ}</td>
-                <td style={{ padding: "10px 0" }}>{s.games}</td>
-                <td style={{ padding: "10px 0", color: s.wins / s.games >= 0.6 ? "#48a868" : s.wins / s.games >= 0.5 ? "#37352f" : "#e03e3e" }}>
-                  {(s.wins / s.games * 100).toFixed(0)}% ({s.wins}W {s.games - s.wins}L)
-                </td>
-                <td style={{ padding: "10px 0", color: kdaColor(s.kills, s.deaths, s.assists) }}>
-                  {kda(s.kills, s.deaths, s.assists)}
-                </td>
-                <td style={{ padding: "10px 0" }}>{(s.cs / s.totalMin).toFixed(1)}</td>
-              </tr>
-            ))}
-        </tbody>
-      </table>
+      <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>🏆 Champions</h2>
+      <div style={tableWrap}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, minWidth: 480 }}>
+          <thead>
+            <tr>
+              <th style={th}>Champion</th>
+              <th style={th}>Games</th>
+              <th style={th}>Win Rate</th>
+              <th style={th}>KDA</th>
+              <th style={th}>CS/min</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.entries(champStats)
+              .sort((a, b) => b[1].games - a[1].games)
+              .map(([champ, s]) => (
+                <tr key={champ}>
+                  <td style={{ ...td, fontWeight: 500 }}>{champ}</td>
+                  <td style={td}>{s.games}</td>
+                  <td style={{ ...td, color: s.wins / s.games >= 0.6 ? "#48a868" : s.wins / s.games >= 0.5 ? "#37352f" : "#e03e3e" }}>
+                    {(s.wins / s.games * 100).toFixed(0)}% ({s.wins}W {s.games - s.wins}L)
+                  </td>
+                  <td style={{ ...td, color: kdaColor(s.kills, s.deaths, s.assists) }}>
+                    {kda(s.kills, s.deaths, s.assists)}
+                  </td>
+                  <td style={td}>{(s.cs / s.totalMin).toFixed(1)}</td>
+                </tr>
+              ))}
+          </tbody>
+        </table>
+      </div>
 
       {/* Duo Stats */}
       {Object.keys(duoStats).length > 0 && (
         <>
-          <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 16, color: "#37352f" }}>👥 Duo Partners</h2>
-          <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: 32, fontSize: 14 }}>
-            <thead>
-              <tr style={{ borderBottom: "2px solid #e3e3e1", textAlign: "left" }}>
-                <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Partner</th>
-                <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Games</th>
-                <th style={{ padding: "8px 0", color: "#9b9a97", fontWeight: 500 }}>Win Rate</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Object.entries(duoStats)
-                .sort((a, b) => b[1].games - a[1].games)
-                .map(([name, s]) => (
-                  <tr key={name} style={{ borderBottom: "1px solid #f0f0ef" }}>
-                    <td style={{ padding: "10px 0", fontWeight: 500 }}>{name}</td>
-                    <td style={{ padding: "10px 0" }}>{s.games}</td>
-                    <td style={{ padding: "10px 0", color: s.wins / s.games >= 0.6 ? "#48a868" : s.wins / s.games >= 0.5 ? "#37352f" : "#e03e3e" }}>
-                      {(s.wins / s.games * 100).toFixed(0)}% ({s.wins}W {s.games - s.wins}L)
-                    </td>
-                  </tr>
-                ))}
-            </tbody>
-          </table>
+          <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>👥 Duo Partners</h2>
+          <div style={tableWrap}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, minWidth: 360 }}>
+              <thead>
+                <tr>
+                  <th style={th}>Partner</th>
+                  <th style={th}>Games</th>
+                  <th style={th}>Win Rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Object.entries(duoStats)
+                  .sort((a, b) => b[1].games - a[1].games)
+                  .map(([name, s]) => (
+                    <tr key={name}>
+                      <td style={{ ...td, fontWeight: 500 }}>{name}</td>
+                      <td style={td}>{s.games}</td>
+                      <td style={{ ...td, color: s.wins / s.games >= 0.6 ? "#48a868" : s.wins / s.games >= 0.5 ? "#37352f" : "#e03e3e" }}>
+                        {(s.wins / s.games * 100).toFixed(0)}% ({s.wins}W {s.games - s.wins}L)
+                      </td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
         </>
       )}
 
       {/* Match History */}
-      <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 16, color: "#37352f" }}>📋 Match History</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
-        <thead>
-          <tr style={{ borderBottom: "2px solid #e3e3e1", textAlign: "left" }}>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}></th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>Champion</th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>Mode</th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>KDA</th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>CS</th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>Duration</th>
-            <th style={{ padding: "8px 4px", color: "#9b9a97", fontWeight: 500 }}>When</th>
-          </tr>
-        </thead>
-        <tbody>
-          {games.map((g, i) => (
-            <tr key={i} style={{ borderBottom: "1px solid #f0f0ef", opacity: g.result === "Remake" ? 0.4 : 1 }}>
-              <td style={{ padding: "8px 4px", fontWeight: 700, color: g.result === "Win" ? "#48a868" : g.result === "Loss" ? "#e03e3e" : "#9b9a97", width: 20 }}>
-                {g.result === "Win" ? "W" : g.result === "Loss" ? "L" : "R"}
-              </td>
-              <td style={{ padding: "8px 4px", fontWeight: 500 }}>{g.champion}</td>
-              <td style={{ padding: "8px 4px", color: "#9b9a97" }}>{g.gameMode === "Ranked Solo" ? "Ranked" : "Normal"}</td>
-              <td style={{ padding: "8px 4px" }}>
-                <span style={{ color: kdaColor(g.kills, g.deaths, g.assists) }}>{g.kills}/{g.deaths}/{g.assists}</span>
-                <span style={{ color: "#9b9a97", marginLeft: 6 }}>({kda(g.kills, g.deaths, g.assists)})</span>
-              </td>
-              <td style={{ padding: "8px 4px" }}>
-                {g.cs} <span style={{ color: "#9b9a97" }}>({g.csPerMin})</span>
-              </td>
-              <td style={{ padding: "8px 4px", color: "#9b9a97" }}>{g.duration}</td>
-              <td style={{ padding: "8px 4px", color: "#9b9a97" }}>{g.timeAgo}</td>
+      <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>📋 Match History</h2>
+      <div style={tableWrap}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, minWidth: 600 }}>
+          <thead>
+            <tr>
+              <th style={{ ...th, width: 28 }}></th>
+              <th style={th}>Champion</th>
+              <th style={th}>Mode</th>
+              <th style={th}>KDA</th>
+              <th style={th}>CS</th>
+              <th style={th}>Duration</th>
+              <th style={th}>When</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {games.map((g, i) => (
+              <tr key={i} style={{ opacity: g.result === "Remake" ? 0.4 : 1 }}>
+                <td style={{ ...td, fontWeight: 700, color: g.result === "Win" ? "#48a868" : g.result === "Loss" ? "#e03e3e" : "#9b9a97" }}>
+                  {g.result === "Win" ? "W" : g.result === "Loss" ? "L" : "R"}
+                </td>
+                <td style={{ ...td, fontWeight: 500 }}>{g.champion}</td>
+                <td style={{ ...td, color: "#9b9a97" }}>{g.gameMode === "Ranked Solo" ? "Ranked" : "Normal"}</td>
+                <td style={td}>
+                  <span style={{ color: kdaColor(g.kills, g.deaths, g.assists) }}>{g.kills}/{g.deaths}/{g.assists}</span>
+                  <span style={{ color: "#9b9a97", marginLeft: 6 }}>({kda(g.kills, g.deaths, g.assists)})</span>
+                </td>
+                <td style={td}>
+                  {g.cs} <span style={{ color: "#9b9a97" }}>({g.csPerMin})</span>
+                </td>
+                <td style={{ ...td, color: "#9b9a97" }}>{g.duration}</td>
+                <td style={{ ...td, color: "#9b9a97" }}>{g.timeAgo}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       {/* Footer */}
-      <div style={{ marginTop: 48, paddingTop: 16, borderTop: "1px solid #e3e3e1", color: "#9b9a97", fontSize: 12 }}>
+      <div style={{ marginTop: 32, paddingTop: 12, borderTop: "1px solid #e3e3e1", color: "#9b9a97", fontSize: 12 }}>
         climb.gg · built by Roux 🫕 · data from op.gg
       </div>
     </div>
