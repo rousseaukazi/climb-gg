@@ -1,0 +1,1356 @@
+[
+  {
+    "champion": "Miss Fortune",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/MissFortune.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Win",
+    "kills": 15,
+    "deaths": 4,
+    "assists": 5,
+    "cs": 230,
+    "csPerMin": 7.0,
+    "duration": "32:40",
+    "timeAgo": "4 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/2019.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1038.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "izakc",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "KillaKazi",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "TireRemote",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "AtMyLimit7",
+        "champion": "Viego"
+      },
+      {
+        "name": "Paetei25",
+        "champion": "Viego"
+      },
+      {
+        "name": "ChaoticMar",
+        "champion": "Viego"
+      },
+      {
+        "name": "deepdishes",
+        "champion": "Viego"
+      },
+      {
+        "name": "Memento",
+        "champion": "Viego"
+      }
+    ]
+  },
+  {
+    "champion": "Caitlyn",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Caitlyn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Win",
+    "kills": 5,
+    "deaths": 2,
+    "assists": 5,
+    "cs": 149,
+    "csPerMin": 7.1,
+    "duration": "21:01",
+    "timeAgo": "4 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1036.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3400.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "izakc",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "KillaKazi",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "TireRemote",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "Rando",
+        "champion": "Singed"
+      },
+      {
+        "name": "Smelvin",
+        "champion": "Singed"
+      },
+      {
+        "name": "TTLJace",
+        "champion": "Singed"
+      },
+      {
+        "name": "Chimaera",
+        "champion": "Singed"
+      },
+      {
+        "name": "OsamaBinSnortin1",
+        "champion": "Singed"
+      }
+    ]
+  },
+  {
+    "champion": "Ashe",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Ashe.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 8,
+    "deaths": 0,
+    "assists": 6,
+    "cs": 147,
+    "csPerMin": 7.3,
+    "duration": "20:14",
+    "timeAgo": "4 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6672.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1038.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "NoGravity",
+        "champion": "Jax"
+      },
+      {
+        "name": "FreeBread",
+        "champion": "Jax"
+      },
+      {
+        "name": "RmR",
+        "champion": "Jax"
+      },
+      {
+        "name": "izakr",
+        "champion": "Jax"
+      },
+      {
+        "name": "TireRemote",
+        "champion": "Jax"
+      },
+      {
+        "name": "TomHitsus Femboy",
+        "champion": "Sett"
+      },
+      {
+        "name": "DrGenerous",
+        "champion": "Sett"
+      },
+      {
+        "name": "\uc544\uc6c3\ub85c\uc6b0\uc7a5\uc778",
+        "champion": "Sett"
+      },
+      {
+        "name": "Habitual Meower",
+        "champion": "Sett"
+      },
+      {
+        "name": "bakenohana",
+        "champion": "Sett"
+      }
+    ]
+  },
+  {
+    "champion": "Ashe",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Ashe.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 16,
+    "deaths": 2,
+    "assists": 11,
+    "cs": 191,
+    "csPerMin": 6.4,
+    "duration": "29:56",
+    "timeAgo": "4 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6672.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "micahsshadow",
+        "champion": "Tryndamere"
+      },
+      {
+        "name": "JGDAV",
+        "champion": "Tryndamere"
+      },
+      {
+        "name": "TandTbam",
+        "champion": "Tryndamere"
+      },
+      {
+        "name": "MinjixMiso",
+        "champion": "Tryndamere"
+      },
+      {
+        "name": "65dan",
+        "champion": "Tryndamere"
+      },
+      {
+        "name": "MrSaturn37",
+        "champion": "Urgot"
+      },
+      {
+        "name": "Mack",
+        "champion": "Urgot"
+      },
+      {
+        "name": "ViperRrRsS",
+        "champion": "Urgot"
+      },
+      {
+        "name": "izakr",
+        "champion": "Urgot"
+      },
+      {
+        "name": "TireRemote",
+        "champion": "Urgot"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 12,
+    "deaths": 3,
+    "assists": 8,
+    "cs": 167,
+    "csPerMin": 6.2,
+    "duration": "27:07",
+    "timeAgo": "4 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6670.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "isbrostupid",
+        "champion": "Shen"
+      },
+      {
+        "name": "El Gran Yaya",
+        "champion": "Shen"
+      },
+      {
+        "name": "Gladiator Fatsa",
+        "champion": "Shen"
+      },
+      {
+        "name": "izakr",
+        "champion": "Shen"
+      },
+      {
+        "name": "TireRemote",
+        "champion": "Shen"
+      },
+      {
+        "name": "Jupiter",
+        "champion": "Gwen"
+      },
+      {
+        "name": "ForgottenCrown",
+        "champion": "Gwen"
+      },
+      {
+        "name": "0o0o00o000000",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Coach",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Ghoti",
+        "champion": "Gwen"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 19,
+    "deaths": 6,
+    "assists": 6,
+    "cs": 162,
+    "csPerMin": 5.5,
+    "duration": "29:28",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3302.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6670.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "a seal",
+        "champion": "Gwen"
+      },
+      {
+        "name": "adopted",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Venezolan007",
+        "champion": "Gwen"
+      },
+      {
+        "name": "SteinArtois",
+        "champion": "Gwen"
+      },
+      {
+        "name": "whyamidoingthis",
+        "champion": "Gwen"
+      },
+      {
+        "name": "netflixandchill1",
+        "champion": "Malphite"
+      },
+      {
+        "name": "Bowling Shoes",
+        "champion": "Malphite"
+      },
+      {
+        "name": "fInDVirginia",
+        "champion": "Malphite"
+      },
+      {
+        "name": "izakr",
+        "champion": "Malphite"
+      },
+      {
+        "name": "Diamonddie",
+        "champion": "Malphite"
+      }
+    ]
+  },
+  {
+    "champion": "Miss Fortune",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/MissFortune.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 7,
+    "deaths": 11,
+    "assists": 6,
+    "cs": 195,
+    "csPerMin": 5.1,
+    "duration": "38:11",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1018.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3364.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Zane",
+        "champion": "Riven"
+      },
+      {
+        "name": "YFNantonio",
+        "champion": "Riven"
+      },
+      {
+        "name": "Ni chu dao ma",
+        "champion": "Riven"
+      },
+      {
+        "name": "Brekclyn",
+        "champion": "Riven"
+      },
+      {
+        "name": "ICELAM SPICE",
+        "champion": "Riven"
+      },
+      {
+        "name": "SanyamYamYum",
+        "champion": "Sett"
+      },
+      {
+        "name": "Bushdidntdoits",
+        "champion": "Sett"
+      },
+      {
+        "name": "fInDVirginia",
+        "champion": "Sett"
+      },
+      {
+        "name": "izakr",
+        "champion": "Sett"
+      },
+      {
+        "name": "Macdaduelist",
+        "champion": "Sett"
+      }
+    ]
+  },
+  {
+    "champion": "Mel",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Mel.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 4,
+    "deaths": 7,
+    "assists": 6,
+    "cs": 174,
+    "csPerMin": 5.8,
+    "duration": "30:13",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6655.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1056.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1058.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1058.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerTeleport.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "CantBanTheKled",
+        "champion": "Kled"
+      },
+      {
+        "name": "AceSama21",
+        "champion": "Kled"
+      },
+      {
+        "name": "Captain Har\u042eck",
+        "champion": "Kled"
+      },
+      {
+        "name": "izakr",
+        "champion": "Kled"
+      },
+      {
+        "name": "fInDVirginia",
+        "champion": "Kled"
+      },
+      {
+        "name": "Weaselygames123",
+        "champion": "Darius"
+      },
+      {
+        "name": "tiny bug",
+        "champion": "Darius"
+      },
+      {
+        "name": "A Sad Plant",
+        "champion": "Darius"
+      },
+      {
+        "name": "Khrupt",
+        "champion": "Darius"
+      },
+      {
+        "name": "SeeleJaeger",
+        "champion": "Darius"
+      }
+    ]
+  },
+  {
+    "champion": "Caitlyn",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Caitlyn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 1,
+    "deaths": 9,
+    "assists": 2,
+    "cs": 187,
+    "csPerMin": 5.5,
+    "duration": "33:44",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3086.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1042.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1042.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "PilotMidLane",
+        "champion": "Singed"
+      },
+      {
+        "name": "Stupidsta",
+        "champion": "Singed"
+      },
+      {
+        "name": "fInDVirginia",
+        "champion": "Singed"
+      },
+      {
+        "name": "izakr",
+        "champion": "Singed"
+      },
+      {
+        "name": "woodstock",
+        "champion": "Singed"
+      },
+      {
+        "name": "jagal",
+        "champion": "Garen"
+      },
+      {
+        "name": "eggs0325",
+        "champion": "Garen"
+      },
+      {
+        "name": "Good Boy Grayson",
+        "champion": "Garen"
+      },
+      {
+        "name": "lucky",
+        "champion": "Garen"
+      },
+      {
+        "name": "rake",
+        "champion": "Garen"
+      }
+    ]
+  },
+  {
+    "champion": "Mel",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Mel.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 14,
+    "deaths": 4,
+    "assists": 6,
+    "cs": 246,
+    "csPerMin": 7.0,
+    "duration": "35:14",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6655.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/2503.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/4628.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1052.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerTeleport.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "James",
+        "champion": "Trundle"
+      },
+      {
+        "name": "MOON",
+        "champion": "Trundle"
+      },
+      {
+        "name": "Enscite",
+        "champion": "Trundle"
+      },
+      {
+        "name": "charismata",
+        "champion": "Trundle"
+      },
+      {
+        "name": "SupportDeezNutz",
+        "champion": "Trundle"
+      },
+      {
+        "name": "TyrannoKing",
+        "champion": "Darius"
+      },
+      {
+        "name": "Vereinus",
+        "champion": "Darius"
+      },
+      {
+        "name": "Hunstvm",
+        "champion": "Darius"
+      },
+      {
+        "name": "izakr",
+        "champion": "Darius"
+      },
+      {
+        "name": "fInDVirginia",
+        "champion": "Darius"
+      }
+    ]
+  },
+  {
+    "champion": "Mel",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Mel.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Win",
+    "kills": 3,
+    "deaths": 1,
+    "assists": 2,
+    "cs": 136,
+    "csPerMin": 7.2,
+    "duration": "18:54",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6655.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1056.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1058.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3145.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerTeleport.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Nermin",
+        "champion": "Nasus"
+      },
+      {
+        "name": "KillaKazi",
+        "champion": "Nasus"
+      },
+      {
+        "name": "Chentianic",
+        "champion": "Nasus"
+      },
+      {
+        "name": "izakr",
+        "champion": "Nasus"
+      },
+      {
+        "name": "izakm",
+        "champion": "Nasus"
+      },
+      {
+        "name": "Hi Its Andrew",
+        "champion": "Yone"
+      },
+      {
+        "name": "You Will Play4Me",
+        "champion": "Yone"
+      },
+      {
+        "name": "Malgrin",
+        "champion": "Yone"
+      },
+      {
+        "name": "Tony The Teller",
+        "champion": "Yone"
+      },
+      {
+        "name": "AszaleaRaine",
+        "champion": "Yone"
+      }
+    ]
+  },
+  {
+    "champion": "Miss Fortune",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/MissFortune.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Win",
+    "kills": 13,
+    "deaths": 3,
+    "assists": 5,
+    "cs": 194,
+    "csPerMin": 6.8,
+    "duration": "28:36",
+    "timeAgo": "5 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1038.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1036.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Cennetig",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "KillaKazi",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "Chentianic",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "CZARSALAD24",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Unemployedd",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Malgrin",
+        "champion": "Gwen"
+      },
+      {
+        "name": "vicotroll",
+        "champion": "Gwen"
+      },
+      {
+        "name": "Jahseh",
+        "champion": "Gwen"
+      }
+    ]
+  },
+  {
+    "champion": "Caitlyn",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Caitlyn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 0,
+    "deaths": 7,
+    "assists": 7,
+    "cs": 199,
+    "csPerMin": 5.3,
+    "duration": "37:22",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3094.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "cat in da lap",
+        "champion": "Trundle"
+      },
+      {
+        "name": "XO Ocean",
+        "champion": "Trundle"
+      },
+      {
+        "name": "RoadRunnerDro",
+        "champion": "Trundle"
+      },
+      {
+        "name": "Trapanese",
+        "champion": "Trundle"
+      },
+      {
+        "name": "KILLACITYKING",
+        "champion": "Trundle"
+      },
+      {
+        "name": "WaxyScrool",
+        "champion": "Pantheon"
+      },
+      {
+        "name": "eshurl",
+        "champion": "Pantheon"
+      },
+      {
+        "name": "izakm",
+        "champion": "Pantheon"
+      },
+      {
+        "name": "izakr",
+        "champion": "Pantheon"
+      },
+      {
+        "name": "Artimas4",
+        "champion": "Pantheon"
+      }
+    ]
+  },
+  {
+    "champion": "Miss Fortune",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/MissFortune.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 6,
+    "deaths": 1,
+    "assists": 7,
+    "cs": 159,
+    "csPerMin": 6.2,
+    "duration": "25:31",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Torakino",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "feetinmymouth",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "Lord BroSilva",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "FullSend247",
+        "champion": "Lissandra"
+      },
+      {
+        "name": "Spice",
+        "champion": "Lissandra"
+      },
+      {
+        "name": "Ninja F1sh",
+        "champion": "Lissandra"
+      },
+      {
+        "name": "Four",
+        "champion": "Lissandra"
+      },
+      {
+        "name": "SQUAREPANTS",
+        "champion": "Lissandra"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Remake",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "cs": 0,
+    "csPerMin": 0.0,
+    "duration": "1:09",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/2003.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1202.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBoost.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "ExtravagantEagle",
+        "champion": "Renekton"
+      },
+      {
+        "name": "Ghosthunter0009",
+        "champion": "Renekton"
+      },
+      {
+        "name": "Ninja F1sh",
+        "champion": "Renekton"
+      },
+      {
+        "name": "izakr",
+        "champion": "Renekton"
+      },
+      {
+        "name": "izakm",
+        "champion": "Renekton"
+      },
+      {
+        "name": "Bluej0ker",
+        "champion": "Irelia"
+      },
+      {
+        "name": "HMScarecrow",
+        "champion": "Irelia"
+      },
+      {
+        "name": "deeno310",
+        "champion": "Irelia"
+      },
+      {
+        "name": "Sargee",
+        "champion": "Irelia"
+      },
+      {
+        "name": "ilikepie34",
+        "champion": "Irelia"
+      }
+    ]
+  },
+  {
+    "champion": "Caitlyn",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Caitlyn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Win",
+    "kills": 2,
+    "deaths": 8,
+    "assists": 13,
+    "cs": 222,
+    "csPerMin": 6.1,
+    "duration": "36:35",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3094.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3035.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "SynodicVoid",
+        "champion": "Yone"
+      },
+      {
+        "name": "dannyplots",
+        "champion": "Yone"
+      },
+      {
+        "name": "Lavish",
+        "champion": "Yone"
+      },
+      {
+        "name": "Energii",
+        "champion": "Yone"
+      },
+      {
+        "name": "J LOVA",
+        "champion": "Yone"
+      },
+      {
+        "name": "xxDespacitowo2xd",
+        "champion": "Urgot"
+      },
+      {
+        "name": "TriHard55",
+        "champion": "Urgot"
+      },
+      {
+        "name": "izakm",
+        "champion": "Urgot"
+      },
+      {
+        "name": "izakr",
+        "champion": "Urgot"
+      },
+      {
+        "name": "Clouder2835",
+        "champion": "Urgot"
+      }
+    ]
+  },
+  {
+    "champion": "Jinx",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/Jinx.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Normal",
+    "result": "Loss",
+    "kills": 5,
+    "deaths": 11,
+    "assists": 5,
+    "cs": 192,
+    "csPerMin": 5.8,
+    "duration": "33:02",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3032.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1038.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1053.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "The1stPanda",
+        "champion": "Shen"
+      },
+      {
+        "name": "0sound",
+        "champion": "Shen"
+      },
+      {
+        "name": "Flubbah",
+        "champion": "Shen"
+      },
+      {
+        "name": "dannyplots",
+        "champion": "Shen"
+      },
+      {
+        "name": "Colin",
+        "champion": "Shen"
+      },
+      {
+        "name": "OgKidNapper",
+        "champion": "Teemo"
+      },
+      {
+        "name": "Baldo Baggins",
+        "champion": "Teemo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Teemo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Teemo"
+      },
+      {
+        "name": "Clouder2835",
+        "champion": "Teemo"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Win",
+    "kills": 14,
+    "deaths": 10,
+    "assists": 13,
+    "cs": 161,
+    "csPerMin": 4.6,
+    "duration": "34:59",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3302.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1057.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1043.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "BusterTom02",
+        "champion": "Sion"
+      },
+      {
+        "name": "SweetKing05",
+        "champion": "Sion"
+      },
+      {
+        "name": "mightaswell",
+        "champion": "Sion"
+      },
+      {
+        "name": "Rytix",
+        "champion": "Sion"
+      },
+      {
+        "name": "Brainal Beads",
+        "champion": "Sion"
+      },
+      {
+        "name": "c3nlavos",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "Atouchofdestiny",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakm",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "izakr",
+        "champion": "Dr. Mundo"
+      },
+      {
+        "name": "SethGrizzyTTV",
+        "champion": "Dr. Mundo"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Remake",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "cs": 3,
+    "csPerMin": 2.2,
+    "duration": "1:22",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/2003.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3340.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1202.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Gravity",
+        "champion": "Udyr"
+      },
+      {
+        "name": "OPM BABY",
+        "champion": "Udyr"
+      },
+      {
+        "name": "izakm",
+        "champion": "Udyr"
+      },
+      {
+        "name": "izakr",
+        "champion": "Udyr"
+      },
+      {
+        "name": "T\u00f4xic",
+        "champion": "Udyr"
+      },
+      {
+        "name": "Reaper",
+        "champion": "Fiora"
+      },
+      {
+        "name": "Beejernaut",
+        "champion": "Fiora"
+      },
+      {
+        "name": "mybadamigo",
+        "champion": "Fiora"
+      },
+      {
+        "name": "ilovecatss20",
+        "champion": "Fiora"
+      },
+      {
+        "name": "THE kanpachi",
+        "champion": "Fiora"
+      }
+    ]
+  },
+  {
+    "champion": "Kog'Maw",
+    "championImg": "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/champion/KogMaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1604",
+    "gameMode": "Ranked Solo",
+    "result": "Loss",
+    "kills": 5,
+    "deaths": 12,
+    "assists": 17,
+    "cs": 138,
+    "csPerMin": 4.1,
+    "duration": "33:23",
+    "timeAgo": "6 days ago",
+    "items": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3115.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/2510.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3145.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1058.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/1029.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3364.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "spells": [
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerBarrier.png?image=q_auto:good,f_webp,w_64,h_64&v=1604",
+      "https://opgg-static.akamaized.net/meta/images/lol/16.3.1/spell/SummonerFlash.png?image=q_auto:good,f_webp,w_64,h_64&v=1604"
+    ],
+    "participants": [
+      {
+        "name": "Daynen33",
+        "champion": "Gwen"
+      },
+      {
+        "name": "smellynutz",
+        "champion": "Gwen"
+      },
+      {
+        "name": "izakm",
+        "champion": "Gwen"
+      },
+      {
+        "name": "izakr",
+        "champion": "Gwen"
+      },
+      {
+        "name": "BigChuck",
+        "champion": "Gwen"
+      },
+      {
+        "name": "BELIKEME123",
+        "champion": "Renekton"
+      },
+      {
+        "name": "Skooterj",
+        "champion": "Renekton"
+      },
+      {
+        "name": "Jounin2",
+        "champion": "Renekton"
+      },
+      {
+        "name": "TheOhGreatOne",
+        "champion": "Renekton"
+      },
+      {
+        "name": "BigBoiBRI",
+        "champion": "Renekton"
+      }
+    ]
+  }
+]
