@@ -146,24 +146,26 @@ export default function Home() {
 
       {/* Insights */}
       <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>💡 Insights</h2>
-      <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "16px", marginBottom: 24, fontSize: 14, lineHeight: 1.8 }}>
-        <div style={{ marginBottom: 12 }}>
-          <strong>🎯 Deaths predict wins.</strong><br/>
-          ≤3 deaths: <strong>{lowDeathWR}% WR</strong> ({lowDeathGames.length}g) · 8+ deaths: <strong>{highDeathWR}% WR</strong> ({highDeathGames.length}g)
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 10, marginBottom: 24 }}>
+        <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "14px" }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 6 }}>🎯 Deaths predict wins</div>
+          <div style={{ fontSize: 13, color: "#48a868" }}>≤3 deaths → {lowDeathWR}% WR</div>
+          <div style={{ fontSize: 13, color: "#e03e3e" }}>8+ deaths → {highDeathWR}% WR</div>
         </div>
-        <div style={{ marginBottom: 12 }}>
-          <strong>🌾 CS matters.</strong><br/>
-          ≥6.5 CS/min: <strong>{highCSWR}% WR</strong> ({highCSGames.length}g) · &lt;5.5 CS/min: <strong>{lowCSWR}% WR</strong> ({lowCSGames.length}g)
+        <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "14px" }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 6 }}>🌾 CS matters</div>
+          <div style={{ fontSize: 13, color: "#48a868" }}>≥6.5/min → {highCSWR}% WR</div>
+          <div style={{ fontSize: 13, color: "#e03e3e" }}>&lt;5.5/min → {lowCSWR}% WR</div>
         </div>
-        <div style={{ marginBottom: 12 }}>
-          <strong>⏱️ Win fast, lose slow.</strong><br/>
-          Avg win: <strong>{avgWinDuration.toFixed(0)}min</strong> · Avg loss: <strong>{avgLossDuration.toFixed(0)}min</strong>
-          {avgLossDuration > avgWinDuration + 3 && <span> — losses drag. If behind late, it{"'"}s probably over.</span>}
+        <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "14px" }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 6 }}>⏱️ Game length</div>
+          <div style={{ fontSize: 13 }}>Avg win: <strong>{avgWinDuration.toFixed(0)}min</strong></div>
+          <div style={{ fontSize: 13 }}>Avg loss: <strong>{avgLossDuration.toFixed(0)}min</strong></div>
         </div>
-        <div>
-          <strong>🧪 Mel mid experiment.</strong><br/>
-          {champStats["Mel"]?.games || 0} games, {champStats["Mel"]?.wins || 0}W {(champStats["Mel"]?.games || 0) - (champStats["Mel"]?.wins || 0)}L.
-          {champStats["Mel"] && champStats["Mel"].wins / champStats["Mel"].games < 0.5 ? " Stick to ADC." : ""}
+        <div style={{ background: "#f7f6f3", borderRadius: 4, padding: "14px" }}>
+          <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 6 }}>🧪 Mel mid</div>
+          <div style={{ fontSize: 13 }}>{champStats["Mel"]?.games || 0}g — {champStats["Mel"]?.wins || 0}W {(champStats["Mel"]?.games || 0) - (champStats["Mel"]?.wins || 0)}L</div>
+          <div style={{ fontSize: 13, color: "#9b9a97" }}>{champStats["Mel"] && champStats["Mel"].wins / champStats["Mel"].games < 0.5 ? "Stick to ADC" : "Interesting"}</div>
         </div>
       </div>
 
