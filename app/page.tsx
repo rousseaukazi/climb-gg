@@ -2,6 +2,7 @@ import gamesData from "../data/games-v2.json";
 import RankProgressionChart from "../components/RankProgressionChart";
 import BuildAnalysis from "../components/BuildAnalysis";
 import TimePerformanceChart from "../components/TimePerformanceChart";
+import ChampionMasteryTracker from "../components/ChampionMasteryTracker";
 
 interface Game {
   champion: string;
@@ -197,6 +198,9 @@ export default function Home() {
 
       {/* Time Performance */}
       <TimePerformanceChart games={realGames} />
+
+      {/* Champion Mastery */}
+      <ChampionMasteryTracker games={realGames} />
 
       {/* Champion Stats */}
       <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>🏆 Champions</h2>
