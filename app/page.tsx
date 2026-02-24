@@ -1,5 +1,6 @@
 import gamesData from "../data/games-v2.json";
 import RankProgressionChart from "../components/RankProgressionChart";
+import BuildAnalysis from "../components/BuildAnalysis";
 
 interface Game {
   champion: string;
@@ -173,6 +174,9 @@ export default function Home() {
           <div style={{ fontSize: 13, color: "#9b9a97" }}>{champStats["Mel"] && champStats["Mel"].wins / champStats["Mel"].games < 0.5 ? "Stick to ADC" : "Interesting"}</div>
         </div>
       </div>
+
+      {/* Build Analysis */}
+      <BuildAnalysis games={realGames} />
 
       {/* Champion Stats */}
       <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>🏆 Champions</h2>
