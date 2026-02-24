@@ -80,14 +80,16 @@ export default function TimePerformanceChart({ games }: TimePerformanceChartProp
                 flex: 1,
                 minWidth: 16
               }}>
-                <div style={{
-                  height: `${Math.max(heightPercent, games > 0 ? 5 : 0)}%`,
-                  backgroundColor: color,
-                  width: '100%',
-                  borderRadius: '2px 2px 0 0',
-                  minHeight: games > 0 ? 4 : 0,
-                  title: `${hour}:00 - ${winRate.toFixed(0)}% WR (${games} games)`
-                }} />
+                <div 
+                  style={{
+                    height: `${Math.max(heightPercent, games > 0 ? 5 : 0)}%`,
+                    backgroundColor: color,
+                    width: '100%',
+                    borderRadius: '2px 2px 0 0',
+                    minHeight: games > 0 ? 4 : 0
+                  }}
+                  title={`${hour}:00 - ${winRate.toFixed(0)}% WR (${games} games)`}
+                />
                 <div style={{
                   fontSize: 9,
                   color: '#9b9a97',

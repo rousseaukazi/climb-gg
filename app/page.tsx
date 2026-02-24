@@ -15,7 +15,21 @@ interface Game {
   duration: string;
   timeAgo: string;
   timestamp: string;
-  participants: { name: string; champion: string }[];
+  items?: Array<{name: string; id: string}>;
+  participants?: Array<{
+    team?: string;
+    teamResult?: string;
+    champion: string;
+    summonerName: string;
+    summonerHref?: string;
+    kda?: string;
+    damage?: string;
+    wards?: string;
+    cs?: string;
+    items?: Array<{name: string; id: string}>;
+    [key: string]: any;
+  }>;
+  compactParticipants?: Array<{ name: string; champion: string }>;
   [key: string]: unknown;
 }
 
@@ -45,14 +59,16 @@ realGames.forEach((g) => {
 const duoStats: Record<string, { games: number; wins: number }> = {};
 const knownAllies = ["izakm", "KillaKazi", "izakc", "TireRemote", "fInDVirginia"];
 realGames.forEach((g) => {
-  const myTeam = g.participants.slice(0, 5);
-  myTeam.forEach((p) => {
-    if (p.name !== "izakr" && knownAllies.includes(p.name)) {
-      if (!duoStats[p.name]) duoStats[p.name] = { games: 0, wins: 0 };
-      duoStats[p.name].games++;
-      if (g.result === "Win") duoStats[p.name].wins++;
-    }
-  });
+  if (g.compactParticipants) {
+    const myTeam = g.compactParticipants.slice(0, 5);
+    myTeam.forEach((p) => {
+      if (p.name !== "izakr" && knownAllies.includes(p.name)) {
+        if (!duoStats[p.name]) duoStats[p.name] = { games: 0, wins: 0 };
+        duoStats[p.name].games++;
+        if (g.result === "Win") duoStats[p.name].wins++;
+      }
+    });
+  }
 });
 
 // Game length analysis
