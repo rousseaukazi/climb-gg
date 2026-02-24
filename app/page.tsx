@@ -1,4 +1,5 @@
-import gamesData from "../data/games.json";
+import gamesData from "../data/games-v2.json";
+import RankProgressionChart from "../components/RankProgressionChart";
 
 interface Game {
   champion: string;
@@ -11,6 +12,7 @@ interface Game {
   csPerMin: number;
   duration: string;
   timeAgo: string;
+  timestamp: string;
   participants: { name: string; champion: string }[];
   [key: string]: unknown;
 }
@@ -126,6 +128,9 @@ export default function Home() {
         <h1 style={{ fontSize: 32, fontWeight: 700, margin: 0, color: "#37352f" }}>climb.gg</h1>
         <p style={{ color: "#9b9a97", fontSize: 14, marginTop: 4 }}>izakr #NA2 · Silver 2 · 18 LP</p>
       </div>
+
+      {/* Rank Progression */}
+      <RankProgressionChart games={realGames} />
 
       {/* Overview */}
       <h2 style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#37352f" }}>📊 Overview</h2>
