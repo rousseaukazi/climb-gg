@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[13948,["/climb-gg/_next/static/chunks/95cd31de6195c3e6.js"],"default"]
+3:I[65468,["/climb-gg/_next/static/chunks/95cd31de6195c3e6.js"],"default"]
+0:{"buildId":"qlSTJgHCXKs6HsJz077PJ","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}

@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[843,["/climb-gg/_next/static/chunks/95cd31de6195c3e6.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"qlSTJgHCXKs6HsJz077PJ","rsc":["$","$1","c",{"children":[["$","div",null,{"style":{"padding":40,"textAlign":"center"},"children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Page not found"}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null

@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[13948,["/climb-gg/_next/static/chunks/95cd31de6195c3e6.js"],"default"]
+3:I[65468,["/climb-gg/_next/static/chunks/95cd31de6195c3e6.js"],"default"]
+:HL["/climb-gg/_next/static/chunks/b4b2bd7f159bb492.css","style"]
+0:{"buildId":"qlSTJgHCXKs6HsJz077PJ","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/climb-gg/_next/static/chunks/b4b2bd7f159bb492.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-white text-[#37352f] min-h-screen antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","div",null,{"style":{"padding":40,"textAlign":"center"},"children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Page not found"}]]}],[]]}]}]}]]}],"loading":null,"isPartial":false}
